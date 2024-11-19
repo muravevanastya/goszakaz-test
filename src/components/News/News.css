@@ -1,0 +1,34 @@
+.news {
+  padding: 0 20px 48px;
+}
+
+.news__title {
+  font-size: 24px;
+  line-height: 31px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1179px) {
+  .news {
+    padding-bottom: 60px;
+  }
+
+  .news__title {
+    text-align: left;
+  }
+
+  .news__items {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1179px) {
+  .news {
+    padding: 0 0 28px;
+  }
+
+  .news__title {
+    text-align: left;
+  }
+}

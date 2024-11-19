@@ -1,0 +1,84 @@
+.pagination__mobile {
+  display: flex;
+  justify-content: center;
+  background: #5D71DD;
+  border-radius: 20px;
+  padding: 13.5px 66px;
+  margin: 0 auto 60px;
+  cursor: pointer;
+}
+
+.pagination__mobile:focus {
+  border: 1.5px solid #2F2222
+}
+
+.pagination__mobile-text {
+  font-size: 18px;
+  line-height: 23px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.pagination__mobile-update-item {
+  width: 20px;
+  height: 20px;
+}
+
+.pagination__desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: -80px auto 96px;
+}
+
+.pagination__desktop-number {
+  font-size: 18px;
+  line-height: 23px;
+  color: #000;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.pagination__desktop a:nth-child(6) {
+  margin: 0 20px
+}
+
+.pagination__desktop-number:hover {
+  color: #5D71DD;
+  text-decoration: underline;
+}
+
+.pagination__desktop-button {
+  color: #5D71DD;
+  font-size: 18px;
+  line-height: 23px;
+  text-decoration: none;
+  padding: 10px 16px;
+  background: #5D71DD0D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.pagination__desktop-button-arrow {
+  width: 5px;
+  height: 10px;
+  margin-left: 10px;
+}
+
+.pagination__desktop-button:hover {
+  background-color: #5D71DD26;
+}
+
+.pagination__desktop-button:active {
+  background-color: #5D71DD33;
+}
+
+@media screen and (min-width: 1180px) {
+  .pagination__desktop {
+    margin: 80px 0 100px;
+  }
+}

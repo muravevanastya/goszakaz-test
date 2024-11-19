@@ -8,6 +8,7 @@
   background-position: center;
   display: flex;
   cursor: pointer;
+  transition: box-shadow 0.3s ease;
 }
 
 .card:hover {
@@ -79,6 +80,7 @@
 .card-purple:hover {
   background-color: #fff;
   color: #2F2222;
+  transition: background-color 0.3s ease;
 }
 
 .card-purple:hover .card__category {
@@ -111,6 +113,7 @@
   white-space: nowrap;
   width: fit-content;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .card__category:hover {

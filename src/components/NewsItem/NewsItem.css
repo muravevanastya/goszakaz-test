@@ -17,6 +17,7 @@
   overflow: hidden;
   -webkit-line-clamp: 2;
   cursor: pointer;
+  transition: color 0.3s ease;
 }
 
 .news-item__text:hover {

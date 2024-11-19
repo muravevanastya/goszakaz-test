@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/goszakaz-test/static/css/main.4bf77d0b.css",
+    "main.css": "/goszakaz-test/static/css/main.a1c094cc.css",
     "main.js": "/goszakaz-test/static/js/main.99abbde7.js",
     "static/js/453.0f9cdc2c.chunk.js": "/goszakaz-test/static/js/453.0f9cdc2c.chunk.js",
     "static/media/banner_mob.jpeg": "/goszakaz-test/static/media/banner_mob.ca7eca2aee9498e1a702.jpeg",
@@ -13,12 +13,12 @@
     "static/media/phoneItem.svg": "/goszakaz-test/static/media/phoneItem.18d388f95a295a11ba921d80a12cc2a4.svg",
     "static/media/arrow.svg": "/goszakaz-test/static/media/arrow.d392183eb96e851abdf70abadedefd97.svg",
     "static/media/arrowNext.svg": "/goszakaz-test/static/media/arrowNext.63aefa1c06dad7c7271bf6b2b7248269.svg",
-    "main.4bf77d0b.css.map": "/goszakaz-test/static/css/main.4bf77d0b.css.map",
+    "main.a1c094cc.css.map": "/goszakaz-test/static/css/main.a1c094cc.css.map",
     "main.99abbde7.js.map": "/goszakaz-test/static/js/main.99abbde7.js.map",
     "453.0f9cdc2c.chunk.js.map": "/goszakaz-test/static/js/453.0f9cdc2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bf77d0b.css",
+    "static/css/main.a1c094cc.css",
     "static/js/main.99abbde7.js"
   ]
 }

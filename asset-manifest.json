@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/goszakaz-test/static/css/main.4bf77d0b.css",
+    "main.js": "/goszakaz-test/static/js/main.99abbde7.js",
+    "static/js/453.0f9cdc2c.chunk.js": "/goszakaz-test/static/js/453.0f9cdc2c.chunk.js",
+    "static/media/banner_mob.jpeg": "/goszakaz-test/static/media/banner_mob.ca7eca2aee9498e1a702.jpeg",
+    "static/media/card2.png": "/goszakaz-test/static/media/card2.effec276bd113c3cc96f.png",
+    "static/media/card1.png": "/goszakaz-test/static/media/card1.14fa186238af0ab83139.png",
+    "static/media/FuturaPT-Book.woff": "/goszakaz-test/static/media/FuturaPT-Book.4b3409651ccb2875bac1.woff",
+    "static/media/FuturaPT-Book.woff2": "/goszakaz-test/static/media/FuturaPT-Book.d11589b013c4d29eea74.woff2",
+    "static/media/updateButton.svg": "/goszakaz-test/static/media/updateButton.d9777e2dec46288da9b79b47fbc437ac.svg",
+    "index.html": "/goszakaz-test/index.html",
+    "static/media/phoneItem.svg": "/goszakaz-test/static/media/phoneItem.18d388f95a295a11ba921d80a12cc2a4.svg",
+    "static/media/arrow.svg": "/goszakaz-test/static/media/arrow.d392183eb96e851abdf70abadedefd97.svg",
+    "static/media/arrowNext.svg": "/goszakaz-test/static/media/arrowNext.63aefa1c06dad7c7271bf6b2b7248269.svg",
+    "main.4bf77d0b.css.map": "/goszakaz-test/static/css/main.4bf77d0b.css.map",
+    "main.99abbde7.js.map": "/goszakaz-test/static/js/main.99abbde7.js.map",
+    "453.0f9cdc2c.chunk.js.map": "/goszakaz-test/static/js/453.0f9cdc2c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bf77d0b.css",
+    "static/js/main.99abbde7.js"
+  ]
+}

@@ -13,14 +13,12 @@ const Header = () => {
   return (
     <header className="header">
       <div className='header__container'>
-        {/* <div className='header__container-items'> */}
           <Switcher/>
           <button className='header__burger-menu' onClick={toggleBurgerMenu}>
             <span className='header__burger-menu-line'></span>
             <span className='header__burger-menu-line'></span>
             <span className='header__burger-menu-line'></span>
           </button>
-        {/* </div> */}
         <nav className={`header__nav ${burgerMenu ? 'header__nav-open' : ''}`}>
           <a className='header__nav-item' href="#">Главная</a>
           <a className='header__nav-item' href="#">О нас</a>

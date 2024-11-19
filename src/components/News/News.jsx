@@ -9,7 +9,6 @@ const newsData = [
 ]
 
 const News = () => {
-
   return (
     <aside className='news'>
       <h2 className='news__title'>Популярные новости</h2>

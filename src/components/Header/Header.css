@@ -4,8 +4,6 @@
   width: 73%;
   margin: 0 auto;
   align-items: center;
-  /* margin-bottom: 8px; */
-  /* position: fixed; */
 }
 
 .header__nav {
@@ -69,7 +67,6 @@
     cursor: pointer;
     z-index: 1;
     margin: 12px;
-    /* position: fixed; */
   }
   
   .header__burger-menu-line {
@@ -81,7 +78,6 @@
   
   .header__nav {
     position: absolute;
-    /* left: -250px; */
     left: 0;
     right: 0;
     top: 0;

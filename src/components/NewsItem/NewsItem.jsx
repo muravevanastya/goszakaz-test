@@ -1,7 +1,5 @@
 import './NewsItem.css'
 
-
-
 const NewsItem = ({ title, date }) => {
   return (
     <div className="news-item">

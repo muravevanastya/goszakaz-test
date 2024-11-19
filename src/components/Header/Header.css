@@ -1,0 +1,114 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  width: 73%;
+  margin: 0 auto;
+  align-items: center;
+  /* margin-bottom: 8px; */
+  /* position: fixed; */
+}
+
+.header__nav {
+  display: flex;
+  padding: 24px 0;
+}
+
+.header__nav-item {
+  text-decoration: none;
+  color: #2F2222;
+  font-size: 18px;
+  line-height: 23px;
+  margin-right: 40px;
+}
+
+.header__nav-item:last-child {
+  color: #5D71DD;
+  margin-right: 0;
+}
+
+.header__nav-item:hover {
+  color: #5D71DD;
+  text-decoration: underline;
+}
+
+.header__nav-item:last-of-type:hover {
+  text-decoration: none;
+}
+
+.header__nav-number {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-number-img {
+  width: 14px;
+  height: 14px;
+  margin-right: 4.5px;
+}
+
+@media screen and (max-width: 699px) {
+  .header__container {
+    margin: 13px auto;
+  }
+
+  .header__container-items {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+  .header__burger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    margin: 12px;
+    /* position: fixed; */
+  }
+  
+  .header__burger-menu-line {
+    width: 100%;
+    height: 3px;
+    background-color: #2F2222;
+    border-radius: 2px;
+  }
+  
+  .header__nav {
+    position: absolute;
+    /* left: -250px; */
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 16px;
+    gap: 12px;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .header__nav-open {
+    /* transform: translateX(250px); */
+    transform: translateX(0);
+    position: fixed;
+  }
+
+  .header__nav-item {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 850px) {
+  .header__container {
+    width: 90%;
+  }
+}

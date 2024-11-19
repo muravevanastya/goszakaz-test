@@ -1,0 +1,194 @@
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px 40px;
+  margin-bottom: 40px;
+  min-height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 4px 8px 40px 0px #08186F33;
+}
+
+.card:focus {
+  border: 1.5px solid #5D71DD
+}
+
+.card:nth-child(1) {
+  grid-area: card1;
+}
+
+.card:nth-child(2) {
+  grid-area: card2;
+}
+
+.card:nth-child(3) {
+  grid-area: card3;
+}
+
+.card:nth-child(4) {
+  grid-area: card4;
+}
+
+.card:nth-child(5) {
+  grid-area: card5;
+}
+
+.card:nth-child(6) {
+  grid-area: card6;
+}
+
+.card:nth-child(7) {
+  grid-area: card7;
+}
+
+.card:nth-child(8) {
+  grid-area: card8;
+}
+
+.card:nth-child(9) {
+  grid-area: card9;
+}
+
+.card:nth-child(10) {
+  grid-area: card10;
+}
+
+.card:nth-child(11) {
+  grid-area: card11;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__content-elements {
+  width: 100%;
+}
+
+.card-purple {
+  background-color: #5D71DD;
+}
+
+.card-purple:hover {
+  background-color: #fff;
+  color: #2F2222;
+}
+
+.card-purple:hover .card__category {
+  color: #5D71DD;
+  background-color: #F7F8FD;
+}
+
+.card-purple:hover .card__date {
+  color: #2F222266;
+}
+
+.card-white-text {
+  color: #fff;
+}
+
+.card__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.card__category {
+  font-size: 16px;
+  line-height: 20px;
+  color: #5D71DD;
+  background-color: #F7F8FD;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.card__category:hover {
+  background-color: #5D71DD26;
+}
+
+.card__category-transparent {
+  background-color: #FFFFFF33;
+  color: #fff;
+}
+
+.card__category-transparent:hover {
+  background-color: #FFFFFF66;
+}
+
+.card__title {
+  font-size: 19px;
+  line-height: 20px;
+  margin: 0 0 20px;
+}
+
+.card__text {
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 20px;
+  color: #2F222266;
+}
+
+.card__date {
+  font-size: 14px;
+  line-height: 20px;
+  color: #2F222266;
+}
+
+.card__date-white {
+  color: #fff;
+}
+
+@media screen and (min-width: 500px) {
+  .card__text {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .card {
+    margin-bottom: 0;
+    min-height: 0;
+    border-radius: 20px;
+  }
+
+  .card-vertical {
+    min-height: 400px;
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    padding: 30px 40px;
+  }
+
+  .card-vertical {
+    min-height: 400px;
+  }
+
+  .card__title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .card__text {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .card__date {
+    font-size: 16px;
+  }
+}
